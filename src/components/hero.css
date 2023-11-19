@@ -1,0 +1,53 @@
+.container-hero{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0 120px 0;
+    gap: 40px;
+}
+
+.container-hero :nth-child(1){
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100px;
+    letter-spacing: -4.9px;
+    text-align: center;
+
+    .hero-gradient-text{
+        font-size: 96px !important;
+        font-weight: 700 !important;
+        color: rgba(235, 255, 37, 1);
+    }
+}
+
+
+.container-hero :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+.img-iphones{
+    width: 779.59px;
+    height: 668.7px;
+    position: relative;
+}
+
+.shadow{
+    background-color: inherit;
+    width: 700px !important;
+    height: 350px !important;
+    border-radius: 50%;
+    box-shadow: 0 0 300px rgba(168, 239, 156, 0.8);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    /* z-index: 1; */
+}
+
+.img-iphones img{
+    position: absolute;
+}

@@ -1,0 +1,137 @@
+.layoutThree-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 934px;
+    padding: 140px, 0px, 140px, 0px;
+    gap: 82px;
+}
+
+/* -------------------------Heading styling----------------------- */
+.layoutThree-heading :nth-child(1){
+    height: 95px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 76.88px;
+    letter-spacing: -2.1 px;
+
+    .layoutThree-gradient-text{
+        color: rgba(235, 255, 37, 1);
+    }
+}
+
+
+.layoutThree-heading :nth-child(2){
+    height: 33px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.85px;
+    letter-spacing: -2.1 px;
+    text-align: center;
+}
+
+/* ----------------------------- CEX Tiles common styling---------------------------------------*/
+
+.fees-comparison-cards{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 438px;
+    padding: 0 150px 0 150px;
+    gap: 20px;
+}
+
+.item-one, .item-three{
+    background-color: rgba(25, 25, 29, 1);
+}
+
+.item-two{
+    background-image: linear-gradient(rgba(218, 247, 96, 1), rgba(50, 216, 117, 0.96)) ;
+    box-shadow: 0 0 40px rgba(226, 255, 111, 0.8);
+    color: var(--css-primary);
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 368.67px;
+    height: 100% !important;
+    position: relative;
+}
+
+
+.img-background{
+    width: 284.33px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* -------------------------------CEX logo image styling -----------------------*/
+
+.logo-img-one{
+    width: 146px;
+    height: 30px;
+    position: absolute;
+    top: 55px;
+    z-index: 1;
+}
+
+.logo-img-two{
+    /* width: 183.25px; */
+    /* height: 44px; */
+    position: absolute;
+    top: 25px;
+    z-index: 1;
+}
+
+.logo-img-three{
+    width: 192px;
+    height: 61px;
+    position: absolute;
+    top: 45px;
+    z-index: 1;
+}
+
+/* ----------------------Fees text styling-----------------------------*/
+
+.fees-content-one{
+    /* width: 92px; */
+    height: 75px;
+    position: absolute;
+    top: 148px;
+    text-align: center;
+}
+
+.fees-num{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50.63px;
+    letter-spacing: -1.69px;
+}
+
+.fees-type{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -1.69 px;
+    opacity: 0.5;
+}
+
+.fees-content-two{
+    /* width: 92px; */
+    height: 75px;
+    position: absolute;
+    top: 281px;
+    text-align: center;
+}
+
+.item-two .fees-num{
+    font-size: 40px;
+}
+
+.item-two .fees-type{
+    line-height: 28px;
+}

@@ -1,0 +1,42 @@
+.offerings{
+    width: 100%;
+    height: 171px;
+    padding: 0 216px 0 216px;
+}
+
+.offerings-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1.5px solid;
+    height: 100%;
+    border-image: linear-gradient(rgba(50, 216, 117, 0.24), rgba(226, 255, 111, 0.25)) 1;
+    box-shadow: 0 0 10px rgba(235, 255, 37, 0.2);
+}
+
+.partition{
+    /* width: 0; */
+    height: 50%;
+    border: 1.5px solid;
+    border-image: linear-gradient( rgba(235, 255, 37, 0), rgba(235, 255, 37, 0.4),rgba(235, 255, 37, 0)) 1;
+}
+
+.offerings-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offerings-text :nth-child(1){
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(235, 255, 37, 1);
+    line-height: 48px;
+}
+
+.offerings-text :nth-child(2){
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(169, 169, 169, 1);
+}

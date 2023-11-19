@@ -1,0 +1,55 @@
+.navbar-component{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 216px;
+    height: 96px;
+    width: 100%;
+    gap: 387px;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0)) 1;
+    /* color: rgba(42, 93, 50, 0.2); */
+    /* background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0)); */
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    width: 519px;
+    height: 48px;
+    gap: 56px;
+}
+
+.logo{
+    width: 99.95px;
+    height: 24px;
+    align-self: center;
+}
+
+.navbar-component button{
+    font-weight: 700;
+    line-height: 19.2px;
+    width: 161px;
+    height: 48px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 8px;
+    background-image: linear-gradient(90deg, rgba(212, 249, 56, 1), rgba(50, 216, 117, 1));
+    box-shadow: 0 0 16px rgba(168, 239, 156, 0.8);
+    border: 0;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    line-height: 16.8px;
+    font-weight: 400;
+    font-size: 14px;
+    width: 302px;
+    height: 17px;
+    gap: 34px;
+}
+
+nav a{
+    color: rgba(252, 252, 252, 1);
+    text-decoration: none;
+    height: 17px;
+}

@@ -1,5 +1,13 @@
 import * as React from "react"
+import "./index.css";
+import Landing from "./Landing"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return(
+    <>
+    <div>
+      <Landing />
+    </div>
+    </>
+  )
 }
