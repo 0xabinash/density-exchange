@@ -1,4 +1,4 @@
-import "./navbar.css"
+import "./styles/navbar.css"
 import { Link } from 'gatsby';
 import React from 'react'
 

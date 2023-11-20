@@ -1,5 +1,5 @@
 import React from 'react';
-import "./layoutOne.css";
+import "./styles/layoutOne.css";
 
 const LayoutOne = () => {
   return (

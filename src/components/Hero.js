@@ -1,4 +1,4 @@
-import "./hero.css";
+import "./styles/hero.css";
 import React from 'react'
 
 const Hero = () => {

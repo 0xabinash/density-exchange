@@ -1,5 +1,5 @@
 import React from 'react';
-import "./layoutThree.css";
+import "./styles/layoutThree.css";
 
 const LayoutThree = () => {
   return (

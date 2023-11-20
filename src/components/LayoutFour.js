@@ -1,5 +1,5 @@
 import React from 'react';
-import "./layoutFour.css";
+import "./styles/layoutFour.css";
 import { Link } from 'gatsby';
 
 const CryptoCard = (props) =>{

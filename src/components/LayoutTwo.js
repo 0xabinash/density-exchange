@@ -1,5 +1,5 @@
 import React from 'react';
-import "./layoutTwo.css"
+import "./styles/layoutTwo.css"
 
 const LayoutTwo = () => {
   return (
