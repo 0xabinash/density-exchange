@@ -7,6 +7,7 @@
     height: 1338.3px;
     padding: 140px 0;
     gap: 82px;
+    position: relative;
 }
 
 .layoutFour-heading{
@@ -159,3 +160,19 @@
     }
 }
 
+.layoutFout-btn{
+    position: absolute;
+    border-radius: 8px;
+    bottom: 102px;
+    width: 268px;
+    height: 48px;
+    padding: 24px 48px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.6px;
+    color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(90deg,rgba(212, 249, 56, 1),rgba(50, 216, 117, 1));
+    box-shadow: 0 0 16px rgba(168, 239, 156, 0.8);
+    border: none;
+    cursor: pointer;
+}

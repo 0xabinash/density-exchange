@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 const CryptoCard = (props) =>{
 
-    const {name, tradePair, imgSrcLogo, imgAltLogo, imgSrcChart, imgAltChart, url, vol, chg, price } = props;
+    const { name, tradePair, imgSrcLogo, imgAltLogo, imgSrcChart, imgAltChart, url, vol, chg, price } = props;
 
     return(
         <>
@@ -86,6 +86,7 @@ const LayoutFour = () => {
             </div>
         </div>
 
+        <button className='layoutFout-btn'>explore markets</button>
     </div>
   )
 }
